@@ -1,5 +1,6 @@
 :root {
   font-family: var(--font-family-primary);
+  line-height: var(--line-height-primary);
 }
 
 @media screen and (max-width: 1024px){
