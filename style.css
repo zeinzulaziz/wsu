@@ -1,3 +1,15 @@
-:root{
-  font-size: 999rem;
+@media screen and (max-width: 1024px){
+  :root {
+    --padding-large: calc(120rem/16);
+    --padding-small: calc(60rem/16);
+    --default-padding: calc(80rem/16);
+  }
+}
+
+@media screen and (max-width: 767px){
+  :root {
+    --padding-large: calc(100rem/16);
+    --padding-small: calc(40rem/16);
+    --default-padding: calc(60rem/16);
+  }
 }
