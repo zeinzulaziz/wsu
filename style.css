@@ -1,4 +1,6 @@
-
+:root {
+  font-family: 'Courier New', Courier, monospace;
+}
 
 @media screen and (max-width: 1024px){
   body main {
